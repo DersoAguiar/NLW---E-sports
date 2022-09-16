@@ -76,6 +76,11 @@ section h2 {
     letter-spacing: -0.47px;
 }
 
+section h4 {   
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
 section p {    
     letter-spacing: -0.18px;
     color: #A1A1AA;
@@ -84,7 +89,7 @@ section p {
 section ul {
     display: flex;
     gap: 16px; /*a propriedade GAP só funciona com Display:flex*/
-    margin-top: 24px;
+    margin-top: 12px;
     flex-wrap: wrap;
 }
 
@@ -96,16 +101,34 @@ section ul li:hover {
     transform: scale(1.1);
 }
 
-.games-list img {
-    width: 90px;
+.soft-skills li {
+    list-style: disc;    
+    margin-right: 15px;
+}
+
+.idioma p {
+    color: #fff;
+}
+
+.contato img {
+    width: 32px;
+    height: 32px;
     border-radius: 8px;
 }
 
-.channel-list img {
+.hard-skills img {
     width: 70px;
     border-radius: 50%;
 }
 
+.xp-list {
+    flex-direction: column;
+}
+
+.xp-list a{
+    text-decoration: none;
+    color: #FFF;
+}
 /* Animation */
 
 header div {
